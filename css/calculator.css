@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.main{
+    
+}
+.container {
+	background-color: azure;
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	transition: .5s linear;
+    box-shadow: 5px 5px 10px gray;
+}
+.container:hover {
+	box-shadow: -6px 10px 10px aqua;
+}
+.container h1 {
+	padding: 9px 0;
+}
+.calc_body{}
+.calc_body input {
+	height: 50px;
+	width: 100%;
+	text-align: right;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+	font-size: 25px;
+}
+.all_btn {
+	font-size: 0;
+}
+.btn {
+	height: 50px;
+	width: 62px;
+	color: white;
+	background-color: slategray;
+}
+.diff_btn {
+	height: 50px;
+	width: 62px;
+	color: white;
+	background-color: darkgreen;
+}
+.diff_btn_style {
+	height: 50px;
+	width: 62px;
+	color: white;
+	background-color: blueviolet;
+}
+.btn:hover {
+	background-color: gray;
+	opacity: 0.5;
+}
+.diff_btn_style:hover {
+    background-color: gray;
+	opacity: 0.5;
+}
+.diff_btn:hover {
+    background-color: gray;
+	opacity: 0.5;
+}
